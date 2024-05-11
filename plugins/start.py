@@ -88,7 +88,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('🍁 ᴊᴏɪɴ ɢᴄx ɴᴇᴛᴡᴏʀᴋ', url='https://t.me/Gcx_Network')
+                    InlineKeyboardButton('🍁 ᴊᴏɪɴ ɢᴄx ɴᴇᴛᴡᴏʀᴋ', url="https://t.me/Gcx_Network")
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
                 ]
             ]
